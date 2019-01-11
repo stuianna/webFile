@@ -9,14 +9,14 @@ Please respect the free service provided by [Serveo](https://serveo.net/) and us
 
 # Installation
 
-WebFile is build for Linux based distributions only and assumes [ssh](https://www.ssh.com/ssh/command/) is available.
+WebFile is built for Linux based distributions only and assumes [ssh](https://www.ssh.com/ssh/command/) is available.
 
 The binary can be obtained using wget:
 ```
 wget https://github.com/stuianna/webFile/releases/download/v0.1.0/webFile
 ```
 
-Or the source can be downloaded and build using the instructions below.
+Or the source can be downloaded and built using the instructions below.
 ```
 git clone https://github.com/stuianna/webFile.git
 ```
