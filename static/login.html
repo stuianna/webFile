@@ -1,0 +1,67 @@
+<div class="container">
+    <div>
+        <p> Transfer '{{file_name}}' from host</p>
+    </div>
+    <form action="/" method="post">
+        <input type="text" name="uname" placeholder='Username' required id='uname'/>
+        <input type="password" name="pwd" placeholder='Password' required id='pwd'/>
+        <input value="Submit" type="submit" name="button" id="but"/>
+    </form>
+    <div id='status'>
+        <p>Incorrect username or password</p>
+    </div>
+</div>
+
+<style>
+    form {
+        margin-top: 0px;
+        margin-bottom: 0px
+    }
+
+    #pwd, #uname {
+        width: 100%;
+        padding: 12px 20px;
+        margin-bottom: 5px; 
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    #but {
+        background-color: rgba(26,124,244,1);
+        padding: 10px 0px;
+        margin: 0px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        color: rgba(255,255,255,1);
+        font-size: 0.9em;
+    }
+
+    .container {
+        position: absolute;
+        padding: 15px;
+        top:50%;
+        left:50%;
+        max-width: 350px;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+
+    body{
+        background-color: rgba(26,124,244,1);
+    }
+
+    #status{
+        color: rgba(255,0,0,1);
+        visibility: {{failed}};
+    }
+    p{
+        margin:1;
+        font-size: 0.6em;
+    }
+</style>

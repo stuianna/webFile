@@ -1,0 +1,13 @@
+#Ignore build directories
+build/
+dist/
+
+#Ignore this puppy
+__pycache__/
+
+#Ignore build files
+*.spec
+
+#Ignore python build files
+*.pyc
+*.pyo
