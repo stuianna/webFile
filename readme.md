@@ -13,7 +13,7 @@ WebFile is build for Linux based distributions only and assumes [ssh](https://ww
 
 The binary can be obtained using wget:
 ```
-wget https://github.com/stuianna/webFile/releases/download/v0.1.0/ucConfig
+wget https://github.com/stuianna/webFile/releases/download/v0.1.0/webFile
 ```
 
 Or the source can be downloaded and build using the instructions below.
